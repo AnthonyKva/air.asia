@@ -1,0 +1,343 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap");
+.header, .footer {
+  position: relative;
+  width: 100%;
+  height: 9.4rem;
+  display: flex;
+}
+.header__menu, .footer__menu {
+  display: flex;
+  width: 75.3rem;
+  justify-content: space-between;
+  margin: 3rem 0;
+}
+
+.logo {
+  width: 6rem;
+  margin: 2rem 0;
+}
+
+.menu {
+  width: 18.8rem;
+  margin: 0 1.2rem;
+}
+.menu__list {
+  display: flex;
+  justify-content: space-between;
+}
+.menu__items {
+  margin: 0 2rem;
+}
+.menu__item {
+  width: 56px;
+  height: 1rem;
+  font-weight: 400;
+}
+
+.address {
+  width: 15rem;
+  display: grid;
+}
+.address__tel {
+  justify-self: end;
+  width: 100%;
+  height: 2.5rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+}
+.address__graphic-job {
+  justify-self: end;
+  margin: 0;
+}
+.address__graphic-hidden {
+  opacity: 0;
+}
+.address__graphic-week {
+  width: auto;
+}
+.address__graphic-dinner {
+  width: auto;
+}
+
+.preview {
+  width: 37rem;
+  height: 23.8rem;
+}
+.preview__tittle {
+  width: 36.5rem;
+  height: 14rem;
+  font-weight: 700;
+  font-size: 5rem;
+  margin: 5rem 0 0;
+}
+.preview__text {
+  width: auto;
+  margin: 2rem 0 4rem;
+}
+
+.fire-tours {
+  width: 100%;
+  height: auto;
+  margin: 17rem 0 0;
+}
+.fire-tours__header {
+  display: flex;
+}
+.fire-tours__tittle {
+  height: 3.5rem;
+  font-weight: 700;
+  font-size: 36px;
+}
+.fire-tours__fire {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: 1rem 1rem 0;
+}
+.fire-tours__cards {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  margin: 3.6rem 0;
+}
+.fire-tours__card {
+  width: 26rem;
+  height: 32rem;
+  background-color: #fff;
+  color: #000;
+}
+.fire-tours__img {
+  width: 100%;
+}
+.fire-tours__article {
+  margin: 2.3rem 1.5rem 1.5rem;
+}
+.fire-tours__article-title {
+  margin: 1.5rem 0;
+  height: 2.3rem;
+  font-weight: 700;
+  font-size: 24px;
+}
+.fire-tours__article-list {
+  margin: 1.5rem 0;
+}
+.fire-tours__article-icon {
+  width: auto;
+}
+.fire-tours__article-nights-breakfast {
+  margin: 0 1.5rem;
+}
+.fire-tours__article-text {
+  margin: 2.5rem 0;
+}
+
+.news {
+  width: 100%;
+  height: auto;
+  margin: 9.1rem 0 0;
+}
+.news__tittle {
+  height: 3.5rem;
+  font-weight: 700;
+  font-size: 36px;
+  margin: 0 0 3rem;
+}
+.news__cheepest-tours {
+  display: flex;
+  justify-content: space-between;
+}
+.news__cheepest-tours-content-one {
+  display: flex;
+  justify-content: center;
+  width: 39rem;
+  background: url("../img/cheepest-tours.jpg");
+  height: 28.1rem;
+  align-items: end;
+}
+.news__cheepest-tours-content-two {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 39rem;
+  background: url("../img/surfer-tours.jpg");
+  height: 28.1rem;
+}
+.news__cheepest-tours-content {
+  position: relative;
+  width: 90%;
+  bottom: 2rem;
+}
+.news__cheepest-tours-tittle {
+  font-weight: 700;
+  font-size: 24px;
+  height: 36px;
+  margin: 1rem 0;
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+  margin: 5.2rem;
+  font-weight: 700;
+  font-size: 16px;
+}
+.slide__pages {
+  margin: 0 2rem;
+}
+.slide__link {
+  display: flex;
+}
+.slide__list {
+  display: flex;
+  gap: 0.4rem;
+}
+.slide__item {
+  width: 2.2rem;
+  height: 2.2rem;
+  text-align: center;
+}
+.slide__page {
+  padding: 0.3rem 0.8rem;
+  border-radius: 50%;
+  background-color: transparent;
+  transition: 0.7s;
+}
+.slide__page:hover {
+  background-color: #fff;
+  color: black;
+  box-shadow: 0 0 5px #fff, 0 0 25px #fff, 0 0 50px #fff;
+}
+
+.about-us {
+  display: flex;
+  width: 100%;
+  margin: 10rem 0 4rem;
+}
+.about-us__image {
+  width: 35rem;
+  height: 36rem;
+}
+.about-us__image-two {
+  margin: 6.9rem 0 0 -9rem;
+}
+.about-us__content {
+  width: 35rem;
+  height: 9.6rem;
+  margin: 10rem 3.5rem 3.5rem -50rem;
+  color: black;
+}
+.about-us__tittle {
+  height: 3.5rem;
+  font-weight: 700;
+  font-size: 36px;
+  margin: 2.6rem 0;
+}
+.about-us__text {
+  margin: 0 0 7rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__center {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social__list {
+  display: flex;
+}
+.social__elem {
+  margin: 0 0.5rem;
+  border-radius: 50%;
+  border: 0.2rem solid transparent;
+  transition: 0.7s;
+}
+.social__elem:hover {
+  border: 0.2rem solid #fff;
+  box-shadow: 0 0 5px #fff, 0 0 25px #fff, 0 0 50px #fff;
+}
+.social__img {
+  border-radius: 50%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  scroll-behavior: smooth;
+  color: #fff;
+  background-color: #001821;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  background: url("../img/main.jpg") no-repeat;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  line-height: 1.42;
+  font-size: 14px;
+}
+html .wrapper, body .wrapper {
+  position: relative;
+  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+[class*=__container] {
+  min-width: 81.4rem;
+  margin: 0 27.8rem;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul, li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.button {
+  width: auto;
+  height: 19px;
+  padding: 1rem 2rem;
+  border-radius: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 0.14rem solid #F5170E;
+  background-color: transparent;
+  color: #F5170E;
+  transition: 0.5s;
+}
+.button:hover {
+  color: #fff;
+  background-color: #F5170E;
+  box-shadow: 0 0 5px #F5170E, 0 0 25px #F5170E, 0 0 50px #F5170E, 0 0 100px #F5170E, 0 0 200px #F5170E;
+}
+
+.red {
+  background-color: #F5170E;
+  color: #fff;
+}
+.red:hover {
+  color: #F5170E;
+  background-color: #fff;
+  box-shadow: 0 0 5px #F5170E, 0 0 25px #F5170E, 0 0 50px #F5170E, 0 0 100px #F5170E, 0 0 200px #F5170E;
+}/*# sourceMappingURL=s.css.map */

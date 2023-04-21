@@ -1,0 +1,23 @@
+.about-us {
+  display: flex;
+  width: 100%;
+  margin: 10rem 0 4rem;
+  &__image {
+    width: 35rem;
+    height: 36rem;}
+  &__image-two{
+    margin: 6.9rem 0 0 -9rem;}
+  &__content {
+    width: 35rem;
+    height: 9.6rem;
+    margin: 10rem 3.5rem 3.5rem -50rem;
+    color: black;}
+  &__tittle {
+    height: 3.5rem;
+    font-weight: 700;
+    font-size: 36px;
+    margin: 2.6rem 0;}
+  &__text {
+    margin: 0 0 7rem; }}
+
+

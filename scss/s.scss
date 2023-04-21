@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap');
+@import './_header.scss';
+@import './_preview.scss';
+@import './_fire-tours.scss';
+@import './_news.scss';
+@import './_about-us.scss';
+@import './_footer.scss';
+
+*{box-sizing: border-box;
+  margin: 0; padding: 0;}
+body{
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  scroll-behavior: smooth;
+  color: #fff;
+  background-color: #001821;}
+
+.main{
+  display: flex;
+  justify-content: center;
+  background: url('../img/main.jpg') no-repeat;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  line-height: 1.42; 
+  font-size: 14px;
+  .wrapper{
+    position: relative;
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    overflow: hidden;}}
+
+[class*="__container"]{
+  min-width: 81.4rem;
+  margin: 0 27.8rem;}
+
+a{
+  text-decoration: none;
+  color: #fff;}
+
+ul,li{
+  text-decoration: none;
+  list-style: none;}
+
+.button {
+  width: auto;
+  height: 19px;
+  padding: 1rem 2rem;
+  border-radius: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: .14rem solid #F5170E;
+  background-color: transparent;
+  color:#F5170E;
+  transition: .5s;
+  &:hover{
+    color:#fff;
+    background-color: #F5170E;
+    box-shadow: 0 0 5px #F5170E, 0 0 25px #F5170E, 0 0 50px #F5170E,
+      0 0 100px #F5170E, 0 0 200px #F5170E;}}
+
+.red{background-color: #F5170E;color: #fff;
+  &:hover{
+    color: #F5170E;
+    background-color: #fff;
+    box-shadow: 0 0 5px #F5170E, 0 0 25px #F5170E, 0 0 50px #F5170E,
+      0 0 100px #F5170E, 0 0 200px #F5170E;}}
+

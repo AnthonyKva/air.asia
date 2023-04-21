@@ -1,0 +1,59 @@
+.fire-tours {
+  width: 100%;
+  height: auto;
+  margin: 17rem 0 0;
+  &__header {
+    display: flex;}
+  &__tittle {
+    height: 3.5rem;
+    font-weight: 700;
+    font-size: 36px;}
+  &__fire {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 1rem 1rem 0;}
+
+  &__cards {
+    width:auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 3.6rem 0;}
+  &__card {
+    width: 26rem;
+    height: 32rem;
+    background-color: #fff;
+    color: #000;}
+  &__img{
+    width: 100%;
+  }
+
+  &__article {
+    margin: 2.3rem 1.5rem 1.5rem;
+  }
+
+  &__article-title {
+    margin: 1.5rem 0;
+    height: 2.3rem;
+    font-weight: 700;
+    font-size: 24px;
+  }
+
+  &__article-list {
+    margin: 1.5rem 0;
+
+  }
+
+  &__article-icon {
+    width: auto;
+  }
+
+  &__article-nights-breakfast {
+    margin: 0 1.5rem;
+  }
+
+  &__article-text {
+    margin: 2.5rem 0;
+
+  }
+}
+

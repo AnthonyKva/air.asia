@@ -1,0 +1,14 @@
+
+.preview {
+  width: 37rem;
+  height: 23.8rem;
+  &__tittle {
+    width: 36.5rem;
+    height: 14rem;
+    font-weight: 700;
+    font-size: 5rem;
+    margin: 5rem 0 0;}
+  &__text {
+    width: auto;
+    margin: 2rem 0 4rem;}
+}

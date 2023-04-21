@@ -1,0 +1,30 @@
+.footer {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   &__center {
+      width: 65%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+}
+
+.social {
+   &__list {
+      display: flex;
+   }
+   &__elem {
+      margin: 0 0.5rem;
+      border-radius: 50%;
+      border: 0.2rem solid transparent;
+      transition: 0.7s;
+      &:hover {
+         border: 0.2rem solid #fff;
+         box-shadow: 0 0 5px #fff, 0 0 25px #fff, 0 0 50px #fff;
+      }
+   }
+   &__img {
+      border-radius: 50%;
+   }
+}

@@ -1,0 +1,76 @@
+.news {
+  width: 100%;
+  height: auto;
+  margin: 9.1rem 0 0;
+  &__tittle {
+    height: 3.5rem;
+    font-weight: 700;
+    font-size: 36px;
+    margin: 0 0 3rem;
+  }
+  &__cheepest-tours {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__cheepest-tours-content-one {
+    display: flex;
+    justify-content: center;
+    width: 39rem;
+    background: url("../img/cheepest-tours.jpg");
+    height: 28.1rem;
+    align-items: end;
+  }
+  &__cheepest-tours-content-two {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 39rem;
+    background: url("../img/surfer-tours.jpg");
+    height: 28.1rem;
+  }
+  &__cheepest-tours-content {
+    position: relative;
+    width: 90%;
+    bottom: 2rem;
+  }
+  &__cheepest-tours-tittle {
+    font-weight: 700;
+    font-size: 24px;
+    height: 36px;
+    margin: 1rem 0;
+  }
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+  margin: 5.2rem;
+  font-weight: 700;
+  font-size: 16px;
+  &__pages {
+    margin: 0 2rem;
+  }
+  &__link {
+    display: flex;
+  }
+  &__list {
+    display: flex;
+    gap: 0.4rem;
+  }
+  &__item {
+    width: 2.2rem;
+    height: 2.2rem;
+    text-align: center;
+  }
+  &__page {
+    padding: 0.3rem 0.8rem;
+    border-radius: 50%;
+    background-color: transparent;
+    transition: 0.7s;
+    &:hover {
+      background-color: #fff;
+      color: black;
+      box-shadow: 0 0 5px #fff, 0 0 25px #fff, 0 0 50px #fff;
+    }
+  }
+}

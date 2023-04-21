@@ -1,0 +1,52 @@
+.header,.footer {
+  position: relative;
+  width: 100%;
+  height: 9.4rem;
+  display: flex;
+  &__menu{
+    display: flex;
+    width: 75.3rem;
+    justify-content: space-between;
+    margin: 3rem 0;}}
+
+.logo {
+  width: 6rem;
+  margin: 2rem 0;}
+
+.menu {
+  width: 18.8rem;
+  margin: 0 1.2rem;
+		&__list {
+      display: flex;
+      justify-content: space-between;}
+		&__items {
+      margin: 0 2rem;}
+		&__item {
+      width: 56px;
+      height: 1rem;
+      font-weight: 400;}}
+
+.address {
+  width: 15rem;
+  display: grid;
+    &__tel {  justify-self: end;
+      width: 100%;
+      height: 2.5rem;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 26px;
+		}
+
+		&__graphic-job {  justify-self: end;
+      margin: 0;
+		}
+
+		&__graphic-hidden {opacity: 0;
+		}
+
+		&__graphic-week {width: auto;
+		}
+
+		&__graphic-dinner {width: auto;
+		}
+}
