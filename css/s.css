@@ -1,41 +1,42 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap");
-.header, .footer {
+.header {
   position: relative;
   width: 100%;
-  height: 9.4rem;
+  min-height: 9.4rem;
   display: flex;
 }
-.header__menu, .footer__menu {
+.header__menu {
   display: flex;
   width: 75.3rem;
   justify-content: space-between;
-  margin: 3rem 0;
+}
+
+.header > .logo, .header__menu {
+  margin: 3rem 0 0;
 }
 
 .logo {
   width: 6rem;
-  margin: 2rem 0;
 }
 
 .menu {
-  width: 18.8rem;
-  margin: 0 1.2rem;
+  padding: 1.2rem 5rem;
+  display: flex;
 }
 .menu__list {
   display: flex;
+  margin: 0 1.2rem;
   justify-content: space-between;
 }
 .menu__items {
-  margin: 0 2rem;
+  margin-right: 2rem;
 }
 .menu__item {
   width: 56px;
-  height: 1rem;
   font-weight: 400;
 }
 
 .address {
-  width: 15rem;
   display: grid;
 }
 .address__tel {
@@ -60,15 +61,13 @@
 }
 
 .preview {
-  width: 37rem;
-  height: 23.8rem;
+  margin-top: 5rem;
 }
 .preview__tittle {
   width: 36.5rem;
   height: 14rem;
   font-weight: 700;
   font-size: 5rem;
-  margin: 5rem 0 0;
 }
 .preview__text {
   width: auto;
@@ -78,13 +77,12 @@
 .fire-tours {
   width: 100%;
   height: auto;
-  margin: 17rem 0 0;
+  margin: 18.8rem 0 0;
 }
 .fire-tours__header {
   display: flex;
 }
 .fire-tours__tittle {
-  height: 3.5rem;
   font-weight: 700;
   font-size: 36px;
 }
@@ -97,11 +95,11 @@
   width: auto;
   display: flex;
   justify-content: space-between;
-  margin: 3.6rem 0;
+  margin-top: 3.8rem;
 }
 .fire-tours__card {
   width: 26rem;
-  height: 32rem;
+  min-height: 32rem;
   background-color: #fff;
   color: #000;
 }
@@ -109,11 +107,10 @@
   width: 100%;
 }
 .fire-tours__article {
-  margin: 2.3rem 1.5rem 1.5rem;
+  margin: 1rem 1.5rem 1.5rem;
 }
 .fire-tours__article-title {
   margin: 1.5rem 0;
-  height: 2.3rem;
   font-weight: 700;
   font-size: 24px;
 }
@@ -162,14 +159,12 @@
   height: 28.1rem;
 }
 .news__cheepest-tours-content {
-  position: relative;
   width: 90%;
-  bottom: 2rem;
+  margin: 0 0 2.2rem 0;
 }
 .news__cheepest-tours-tittle {
   font-weight: 700;
   font-size: 24px;
-  height: 36px;
   margin: 1rem 0;
 }
 
@@ -181,7 +176,7 @@
   font-size: 16px;
 }
 .slide__pages {
-  margin: 0 2rem;
+  margin: 0 1.5rem;
 }
 .slide__link {
   display: flex;
@@ -210,48 +205,61 @@
 .about-us {
   display: flex;
   width: 100%;
-  margin: 10rem 0 4rem;
+  margin: 10rem 0 0.5rem;
 }
 .about-us__image {
   width: 35rem;
   height: 36rem;
 }
-.about-us__image-two {
-  margin: 6.9rem 0 0 -9rem;
-}
 .about-us__content {
-  width: 35rem;
-  height: 9.6rem;
-  margin: 10rem 3.5rem 3.5rem -50rem;
+  width: 74rem;
+  height: 32.6rem;
+  margin: 7rem 0 3.5rem -10rem;
+  background: url("../img/mountains.jpg") no-repeat;
   color: black;
 }
+.about-us__article {
+  margin: 4.8rem 6rem;
+}
 .about-us__tittle {
-  height: 3.5rem;
   font-weight: 700;
   font-size: 36px;
   margin: 2.6rem 0;
 }
 .about-us__text {
-  margin: 0 0 7rem;
+  width: 70%;
+  margin-bottom: 4rem;
+  line-height: 2;
 }
 
-.footer {
+.footer__block {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
 }
+
 .footer__center {
   width: 65%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+}
+
+.footer__line {
+  margin: 0 0 3.5rem;
+  border: none;
+  border-top: 1px solid #333;
+}
+
+.footer .menu {
+  margin: 0;
+  padding: 0;
 }
 
 .social__list {
   display: flex;
 }
 .social__elem {
-  margin: 0 0.5rem;
+  margin: 0 0.5rem 0 0;
   border-radius: 50%;
   border: 0.2rem solid transparent;
   transition: 0.7s;
@@ -281,7 +289,7 @@ body {
 .main {
   display: flex;
   justify-content: center;
-  background: url("../img/main.jpg") no-repeat;
+  background: url("../img/2.jpg") 0% 100% no-repeat;
 }
 
 html, body {
@@ -291,6 +299,7 @@ html, body {
   font-size: 14px;
 }
 html .wrapper, body .wrapper {
+  background: url("../img/main.jpg") no-repeat;
   position: relative;
   width: 100%;
   min-width: 100%;

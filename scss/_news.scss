@@ -29,14 +29,12 @@
     height: 28.1rem;
   }
   &__cheepest-tours-content {
-    position: relative;
     width: 90%;
-    bottom: 2rem;
+    margin: 0 0 2.2rem 0;
   }
   &__cheepest-tours-tittle {
     font-weight: 700;
     font-size: 24px;
-    height: 36px;
     margin: 1rem 0;
   }
 }
@@ -48,7 +46,7 @@
   font-weight: 700;
   font-size: 16px;
   &__pages {
-    margin: 0 2rem;
+    margin: 0 1.5rem;
   }
   &__link {
     display: flex;

@@ -1,13 +1,19 @@
-.footer {
+.footer__block {
    display: flex;
    justify-content: space-between;
-   align-items: center;
-   &__center {
+   align-items: start;}
+.footer__center {
       width: 65%;
       display: flex;
-      justify-content: space-between;
-      align-items: center;
-   }
+      justify-content: space-between;}
+.footer__line {
+   margin: 0 0 3.5rem;
+   border: none;
+   border-top: 1px solid #333;
+}
+
+.footer .menu{
+   margin: 0; padding: 0;
 }
 
 .social {
@@ -15,7 +21,7 @@
       display: flex;
    }
    &__elem {
-      margin: 0 0.5rem;
+      margin: 0 0.5rem 0 0;
       border-radius: 50%;
       border: 0.2rem solid transparent;
       transition: 0.7s;

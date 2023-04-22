@@ -18,7 +18,7 @@ body{
 .main{
   display: flex;
   justify-content: center;
-  background: url('../img/main.jpg') no-repeat;
+  background: url('../img/2.jpg') 0% 100% no-repeat;
 }
 html,body{
   height: 100%;
@@ -26,6 +26,7 @@ html,body{
   line-height: 1.42; 
   font-size: 14px;
   .wrapper{
+    background: url('../img/main.jpg') no-repeat;
     position: relative;
     width: 100%;
     min-width: 100%;
