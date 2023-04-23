@@ -1,7 +1,7 @@
 .fire-tours {
   width: 100%;
   height: auto;
-  margin: 18.8rem 0 0;
+  margin: 18rem 0 0;
   &__header {
     display: flex;
   }
@@ -32,16 +32,16 @@
   }
 
   &__article {
-    margin: 1rem 1.5rem 1.5rem;
+    margin: 1.5rem 1.5rem 1.5rem;
   }
   &__article-title {
-    margin: 1.5rem 0;
+    margin-top: 1.5rem;
     font-weight: 700;
     font-size: 24px;
   }
 
   &__article-list {
-    margin: 1.5rem 0;
+    margin-top: 1rem;
   }
 
   &__article-icon {
@@ -49,7 +49,7 @@
   }
 
   &__article-nights-breakfast {
-    margin: 0 1.5rem;
+    margin-top: 1.5rem;
   }
 
   &__article-text {

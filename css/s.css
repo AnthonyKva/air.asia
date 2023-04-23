@@ -4,15 +4,12 @@
   width: 100%;
   min-height: 9.4rem;
   display: flex;
+  margin: 3rem 0;
 }
 .header__menu {
   display: flex;
   width: 75.3rem;
   justify-content: space-between;
-}
-
-.header > .logo, .header__menu {
-  margin: 3rem 0 0;
 }
 
 .logo {
@@ -28,6 +25,9 @@
   margin: 0 1.2rem;
   justify-content: space-between;
 }
+.menu__items:last-child {
+  margin: 0;
+}
 .menu__items {
   margin-right: 2rem;
 }
@@ -36,18 +36,15 @@
   font-weight: 400;
 }
 
-.address {
-  display: grid;
-}
 .address__tel {
-  justify-self: end;
+  text-align: right;
   height: 2.5rem;
   font-style: normal;
   font-weight: 400;
   font-size: 26px;
 }
 .address__graphic-job {
-  justify-self: end;
+  text-align: right;
   margin: 0;
 }
 .address__graphic-hidden {
@@ -60,12 +57,7 @@
   width: auto;
 }
 
-.preview {
-  margin-top: 5rem;
-}
 .preview__tittle {
-  width: 36.5rem;
-  height: 14rem;
   font-weight: 700;
   font-size: 5rem;
 }
@@ -77,7 +69,7 @@
 .fire-tours {
   width: 100%;
   height: auto;
-  margin: 18.8rem 0 0;
+  margin: 18rem 0 0;
 }
 .fire-tours__header {
   display: flex;
@@ -107,21 +99,21 @@
   width: 100%;
 }
 .fire-tours__article {
-  margin: 1rem 1.5rem 1.5rem;
+  margin: 1.5rem 1.5rem 1.5rem;
 }
 .fire-tours__article-title {
-  margin: 1.5rem 0;
+  margin-top: 1.5rem;
   font-weight: 700;
   font-size: 24px;
 }
 .fire-tours__article-list {
-  margin: 1.5rem 0;
+  margin-top: 1rem;
 }
 .fire-tours__article-icon {
   width: auto;
 }
 .fire-tours__article-nights-breakfast {
-  margin: 0 1.5rem;
+  margin-top: 1.5rem;
 }
 .fire-tours__article-text {
   margin: 2.5rem 0;
@@ -130,10 +122,9 @@
 .news {
   width: 100%;
   height: auto;
-  margin: 9.1rem 0 0;
+  margin: 9.2rem 0 0;
 }
 .news__tittle {
-  height: 3.5rem;
   font-weight: 700;
   font-size: 36px;
   margin: 0 0 3rem;
@@ -224,11 +215,10 @@
 .about-us__tittle {
   font-weight: 700;
   font-size: 36px;
-  margin: 2.6rem 0;
 }
 .about-us__text {
   width: 70%;
-  margin-bottom: 4rem;
+  margin-bottom: 6rem;
   line-height: 2;
 }
 
@@ -259,7 +249,6 @@
   display: flex;
 }
 .social__elem {
-  margin: 0 0.5rem 0 0;
   border-radius: 50%;
   border: 0.2rem solid transparent;
   transition: 0.7s;
@@ -323,8 +312,6 @@ ul, li {
 }
 
 .button {
-  width: auto;
-  height: 19px;
   padding: 1rem 2rem;
   border-radius: 3rem;
   font-weight: 700;

@@ -3,12 +3,12 @@
   width: 100%;
   min-height: 9.4rem;
   display: flex;
+  margin: 3rem 0;
   &__menu{
     display: flex;
     width: 75.3rem;
 
     justify-content: space-between;}}
-.header>.logo,.header__menu{margin: 3rem 0 0;}
 
 .logo {
   width: 6rem;
@@ -21,6 +21,7 @@
       display: flex;
       margin: 0 1.2rem;
       justify-content: space-between;}
+    &__items:last-child{margin: 0;}
 		&__items {
       margin-right: 2rem;}
 		&__item {
@@ -28,15 +29,14 @@
       font-weight: 400;}}
 
 .address {
-  display: grid;
-    &__tel {  justify-self: end;
+    &__tel {  text-align: right;
       height: 2.5rem;
       font-style: normal;
       font-weight: 400;
       font-size: 26px;
 		}
 
-		&__graphic-job {  justify-self: end;
+		&__graphic-job {  text-align: right;
       margin: 0;
 		}
 
