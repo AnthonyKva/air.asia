@@ -1,13 +1,14 @@
 .header {
   position: relative;
   width: 100%;
-  min-height: 9.4rem;
   display: flex;
-  margin: 3rem 0;
+  margin: 0 0 6rem;
+  align-items: center;
   &__menu{
     display: flex;
-    width: 75.3rem;
-
+    width: 100%;
+    align-items: center;
+    margin-left: 6rem;
     justify-content: space-between;}}
 
 .logo {
@@ -15,11 +16,10 @@
 }
 
 .menu {
-  padding: 1.2rem 5rem;
   display: flex;
 		&__list {
       display: flex;
-      margin: 0 1.2rem;
+      gap: 2rem;
       justify-content: space-between;}
     &__items:last-child{margin: 0;}
 		&__items {

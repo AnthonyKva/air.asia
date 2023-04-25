@@ -4,6 +4,7 @@
    align-items: start;}
 .footer__center {
       width: 65%;
+      margin-left: 2.5rem;
       display: flex;
       justify-content: space-between;}
 .footer__line {
@@ -14,11 +15,14 @@
 
 .footer .menu{
    margin: 0; padding: 0;
+   display: flex;
+   align-items: center;
 }
 
 .social {
    &__list {
       display: flex;
+      gap: .6rem;
    }
    &__elem {
       border-radius: 50%;

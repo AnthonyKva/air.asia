@@ -2,13 +2,15 @@
 .header {
   position: relative;
   width: 100%;
-  min-height: 9.4rem;
   display: flex;
-  margin: 3rem 0;
+  margin: 0 0 6rem;
+  align-items: center;
 }
 .header__menu {
   display: flex;
-  width: 75.3rem;
+  width: 100%;
+  align-items: center;
+  margin-left: 6rem;
   justify-content: space-between;
 }
 
@@ -17,12 +19,11 @@
 }
 
 .menu {
-  padding: 1.2rem 5rem;
   display: flex;
 }
 .menu__list {
   display: flex;
-  margin: 0 1.2rem;
+  gap: 2rem;
   justify-content: space-between;
 }
 .menu__items:last-child {
@@ -62,7 +63,7 @@
 }
 .preview__text {
   width: auto;
-  margin: 2rem 0 4rem;
+  margin: 2.5rem 0 4rem;
 }
 
 .fire-tours {
@@ -166,14 +167,14 @@
   font-size: 16px;
 }
 .slide__pages {
-  margin: 0 1.5rem;
+  margin: 0 1rem;
 }
 .slide__link {
   display: flex;
 }
 .slide__list {
   display: flex;
-  gap: 0.4rem;
+  gap: 0.1rem;
 }
 .slide__item {
   width: 2.2rem;
@@ -229,6 +230,7 @@
 
 .footer__center {
   width: 65%;
+  margin-left: 2.5rem;
   display: flex;
   justify-content: space-between;
 }
@@ -242,10 +244,13 @@
 .footer .menu {
   margin: 0;
   padding: 0;
+  display: flex;
+  align-items: center;
 }
 
 .social__list {
   display: flex;
+  gap: 0.6rem;
 }
 .social__elem {
   border-radius: 50%;
