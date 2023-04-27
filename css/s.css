@@ -292,6 +292,9 @@
 .services__footer .footer__line {
   opacity: 0;
 }
+.services__footer .adress__text {
+  color: #fff;
+}
 
 .wrapper__services {
   position: relative;
