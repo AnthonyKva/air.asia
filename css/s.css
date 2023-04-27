@@ -37,6 +37,10 @@
   font-weight: 400;
 }
 
+.add-header {
+  margin-top: 2rem;
+}
+
 .address__tel {
   text-align: right;
   font-style: normal;
@@ -45,6 +49,7 @@
 }
 .address__graphic-job {
   text-align: right;
+  color: #fff;
   margin: 0;
 }
 .address__graphic-hidden {
@@ -173,6 +178,7 @@
   display: flex;
 }
 .slide__list {
+  margin-left: 1rem;
   display: flex;
   gap: 0.1rem;
 }
@@ -191,6 +197,19 @@
   background-color: #fff;
   color: black;
   box-shadow: 0 0 5px #fff, 0 0 25px #fff, 0 0 50px #fff;
+}
+
+.redd {
+  padding: 0.3rem 0.8rem;
+  border-radius: 50%;
+  background-color: transparent;
+  transition: 0.7s;
+  color: black;
+}
+.redd:hover {
+  background-color: #F5170E;
+  color: #fff;
+  box-shadow: 0 0 5px #F5170E, 0 0 25px #F5170E, 0 0 50px #F5170E;
 }
 
 .about-us {
@@ -226,6 +245,7 @@
   display: flex;
   justify-content: space-between;
   align-items: start;
+  text-decoration-color: #fff;
 }
 
 .footer__center {
@@ -265,6 +285,83 @@
   border-radius: 50%;
 }
 
+.services__footer {
+  background-color: #001821;
+  padding: 1.5rem 0;
+}
+.services__footer .footer__line {
+  opacity: 0;
+}
+
+.wrapper__services {
+  position: relative;
+  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+}
+.wrapper__services .services {
+  background: url("../img/img-services/headline.jpg") no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-content: space-evenly;
+}
+
+.header__container .services__header {
+  margin: 0 0 3.5rem;
+}
+.header__container .header__tittle {
+  color: #fff;
+  font-weight: 700;
+  font-size: 72px;
+}
+.header__container .breadcrumbs {
+  margin-top: 6.8rem;
+}
+.header__container .breadcrumbs .breadcrumbs__element {
+  color: #fff;
+  margin-left: 0.5rem;
+}
+.header__container .breadcrumbs .breadcrumbs__element:first-child {
+  margin-left: 0;
+}
+
+.services__content {
+  margin-top: 8.8rem;
+}
+.services__content .services__card {
+  display: flex;
+  gap: 4.5rem;
+  margin-top: 3.5rem;
+}
+.services__content .services__card .services__card-content {
+  margin-top: 0.8rem;
+}
+.services__content .services__card .services__card-content .services__card-tittle {
+  font-weight: 700;
+  font-size: 36px;
+}
+.services__content .services__card .services__card-content .services__card-text {
+  margin: 2rem 0 3rem;
+  line-height: 2.5rem;
+}
+
+.services__partners {
+  background-color: #F4F5F5;
+}
+.services__partners .services__partners-tittle {
+  margin: 6.28rem 0;
+  font-weight: 700;
+  font-size: 48px;
+}
+.services__partners .services__partners-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 5rem;
+  column-gap: 4.5rem;
+  margin-bottom: 7.5rem;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -275,8 +372,6 @@ body {
   font-family: "Open Sans", sans-serif;
   position: relative;
   scroll-behavior: smooth;
-  color: #fff;
-  background-color: #001821;
 }
 
 .main {
@@ -298,6 +393,8 @@ html .wrapper, body .wrapper {
   min-width: 100%;
   min-height: 100%;
   overflow: hidden;
+  color: #fff;
+  background-color: #001821;
 }
 
 [class*=__container] {

@@ -5,15 +5,14 @@
 @import './_news.scss';
 @import './_about-us.scss';
 @import './_footer.scss';
+@import './_services.scss';
 
 *{box-sizing: border-box;
   margin: 0; padding: 0;}
 body{
   font-family: 'Open Sans', sans-serif;
   position: relative;
-  scroll-behavior: smooth;
-  color: #fff;
-  background-color: #001821;}
+  scroll-behavior: smooth;}
 
 .main{
   display: flex;
@@ -31,7 +30,9 @@ html,body{
     width: 100%;
     min-width: 100%;
     min-height: 100%;
-    overflow: hidden;}}
+    overflow: hidden;
+    color: #fff;
+    background-color: #001821;}}
 
 [class*="__container"]{
   min-width: 81.4rem;

@@ -1,0 +1,15 @@
+.services__partners{
+  background-color: #F4F5F5;
+  .services__partners-tittle{
+    margin: 6.28rem 0;
+    font-weight: 700;
+    font-size: 48px;
+  }
+  .services__partners-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 5rem;
+    column-gap: 4.5rem;
+    margin-bottom: 7.5rem;
+  }
+}

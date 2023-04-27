@@ -51,6 +51,7 @@
     display: flex;
   }
   &__list {
+    margin-left: 1rem;
     display: flex;
     gap: 0.1rem;
   }
@@ -69,5 +70,18 @@
       color: black;
       box-shadow: 0 0 5px #fff, 0 0 25px #fff, 0 0 50px #fff;
     }
+  }
+}
+.redd{
+  padding: 0.3rem 0.8rem;
+  border-radius: 50%;
+  background-color: transparent;
+  transition: 0.7s;
+  color: black
+  ;
+  &:hover {
+    background-color: #F5170E;
+    color: #fff;
+    box-shadow: 0 0 5px #F5170E, 0 0 25px #F5170E, 0 0 50px #F5170E
   }
 }

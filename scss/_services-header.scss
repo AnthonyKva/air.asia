@@ -1,0 +1,17 @@
+.header__container{
+  .services__header{
+    margin:0 0 3.5rem;
+  }
+  .header__tittle{
+    color: #fff;
+    font-weight: 700;
+    font-size: 72px;}
+  .breadcrumbs{
+    margin-top: 6.8rem;
+    .breadcrumbs__element{
+      color: #fff;
+      margin-left: .5rem;
+    }
+    .breadcrumbs__element:first-child{margin-left: 0;}
+  }
+  }
