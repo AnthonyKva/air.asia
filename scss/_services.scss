@@ -5,11 +5,14 @@
   min-width: 100%;
   min-height: 100%;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
   .services{
     background: url('../img/img-services/headline.jpg') no-repeat;
     display: flex;
     flex-direction: column;
-    align-content: space-evenly}
+    align-content: space-evenly;
+  }
 }
 
 @import './_services-header.scss';

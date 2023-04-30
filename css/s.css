@@ -3,7 +3,6 @@
   position: relative;
   width: 100%;
   display: flex;
-  margin: 0 0 6rem;
   align-items: center;
 }
 .header__menu {
@@ -38,7 +37,7 @@
 }
 
 .add-header {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 }
 
 .address__tel {
@@ -46,20 +45,47 @@
   font-style: normal;
   font-weight: 400;
   font-size: 26px;
+  margin-top: 2rem;
 }
 .address__graphic-job {
   text-align: right;
   color: #fff;
   margin: 0;
 }
+
+.undeheader {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
 .address__graphic-hidden {
-  opacity: 0;
+  opacity: 1;
+  width: 11.21rem;
+  margin-left: 2rem;
+  text-align: center;
+  color: black;
 }
-.address__graphic-week {
-  width: auto;
+
+.address__hidden-block {
+  background-color: #EDEDED;
+  width: 100%;
+  height: 4rem;
+  border-radius: 5px;
+  padding: 0.5rem;
 }
-.address__graphic-dinner {
-  width: auto;
+
+.triangle {
+  width: 0;
+  height: 1rem;
+  margin-left: 60%;
+  border-left: 1rem solid transparent;
+  border-right: 1rem solid transparent;
+  border-bottom: 1rem solid #EDEDED;
+}
+
+.address__graphic-hidden:hover {
+  opacity: 1;
 }
 
 .preview__tittle {
@@ -302,6 +328,8 @@
   min-width: 100%;
   min-height: 100%;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 .wrapper__services .services {
   background: url("../img/img-services/headline.jpg") no-repeat;
@@ -323,9 +351,13 @@
 }
 .header__container .breadcrumbs .breadcrumbs__element {
   color: #fff;
-  margin-left: 0.5rem;
+  margin-left: 0.2rem;
 }
-.header__container .breadcrumbs .breadcrumbs__element:first-child {
+.header__container .breadcrumbs .breadcrumbs__element:not(:last-child)::after {
+  content: " /";
+  color: #fff;
+}
+.header__container .breadcrumbs__element:first-child {
   margin-left: 0;
 }
 
@@ -359,6 +391,7 @@
 }
 .services__partners .services__partners-list {
   display: grid;
+  align-items: center;
   grid-template-columns: repeat(4, 1fr);
   row-gap: 5rem;
   column-gap: 4.5rem;
