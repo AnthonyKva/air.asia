@@ -6,11 +6,23 @@
     font-size: 48px;
   }
   .services__partners-list{
-    display: grid;
-    align-items: center;
-    grid-template-columns: repeat(4, 1fr);
-    row-gap: 5rem;
-    column-gap: 4.5rem;
+    display: flex;
+    flex-wrap: wrap;
     margin-bottom: 7.5rem;
+    .services__partners-item{
+      width: 18rem;
+      height: 7rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 3rem;
+    }
+    .services__partners-item:nth-child(4n + 1){
+      margin-left: 0;
+    }
+    .services__partners-tap{
+      filter: grayscale(1);}
+    .services__partners-tap:hover{filter: grayscale(0);
+    }
   }
 }

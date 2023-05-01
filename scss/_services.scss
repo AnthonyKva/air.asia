@@ -1,3 +1,6 @@
+@import './_services-header.scss';
+@import './_services-content.scss';
+@import './_services__partners.scss';
 
 .wrapper__services{
   position: relative;
@@ -15,6 +18,3 @@
   }
 }
 
-@import './_services-header.scss';
-@import './_services-content.scss';
-@import './_services__partners.scss';

@@ -1,18 +1,16 @@
 .footer__block {
+   border-top: 1px solid #545252;
+   padding-top: 2rem;
    display: flex;
    justify-content: space-between;
-   align-items: start;
-   text-decoration-color: #fff;}
+   align-items: start;}
+.footer__block .logo{margin-top: 0;}
 .footer__center {
       width: 65%;
       margin-left: 2.5rem;
       display: flex;
       justify-content: space-between;}
-.footer__line {
-   margin: 0 0 2.5rem;
-   border: none;
-   border-top: 1px solid #333;
-}
+
 
 .footer .menu{
    margin: 0; padding: 0;
@@ -39,6 +37,7 @@
 .services__footer{
    background-color: #001821;
    padding: 1.5rem 0;
-   .footer__line{opacity: 0;}
+   .footer__block{
+   border-top: none;}
    .adress__text{color: #fff;}
 }

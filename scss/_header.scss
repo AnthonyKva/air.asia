@@ -2,16 +2,17 @@
   position: relative;
   width: 100%;
   display: flex;
-  align-items: center;
+  padding-top: 2rem;
+  margin-bottom: 8.8rem;
   &__menu{
     display: flex;
     width: 100%;
-    align-items: center;
-    margin-left: 6rem;
+    margin: 2rem 0 0 6rem;
     justify-content: space-between;}}
 
 .logo {
   width: 6rem;
+  margin-top: 2rem;
 }
 
 .menu {
@@ -27,49 +28,39 @@
       width: 56px;
       font-weight: 400;}}
 
-.add-header{margin-top: 1.5rem;}
 .address {
     &__tel {  text-align: right;
       font-style: normal;
       font-weight: 400;
       font-size: 26px;
-      margin-top: 2rem;
 		}
 		&__graphic-job {  text-align: right;
       color: #fff;
       margin: 0;
 		}
-	
-}
-.undeheader{
-  display: flex;
-  justify-content: flex-end;
-  width: 100%;}
-.address__graphic-hidden {opacity: 0;
-      padding: 2rem;
-      width: 11.21rem;
-      margin-left: 2rem;
-      text-align: center;
-      color: black;}
-      &__graphic-week {width: auto;
-      }
-      &__graphic-dinner {width: auto;
+    .address__graphic-hidden{
+      opacity: 0;
+      width: 11.6rem;
+      color: black;
+      position: absolute;
+      transition: .8s;
+      .triangle{
+        margin-left: 9rem;
+        width: 0; 
+        height: 0; 
+        border-left: 1rem solid transparent;
+        border-right: 1rem solid transparent;
+        border-bottom: 1rem solid #ededed;
       }
       .address__hidden-block{
-        background-color: #EDEDED;
+        margin-left: 2rem;
+        background-color: #ededed;
         width: 100%;
-        height: 4rem;
-        border-radius: 5px;
-        padding: .5rem;
+        border-radius: .5rem;
+        padding: .8rem;
       }
-      .triangle{
-        width: 0; 
-        height: 1rem; 
-        margin-left: 60%;
-        border-left: 1rem solid transparent;
-        border-right: 1rem solid transparent;       
-        border-bottom: 1rem solid #EDEDED;
-      }
-.address__graphic-hidden:hover{opacity: 1;}
-
+    }
+    .address__graphic-hidden:hover{opacity: 1;}
+	
+}
 

@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no">
   <meta name="format-detection" content="telephone=no">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./css/s.css">
   <title>AirAsia</title>
 </head>
@@ -37,18 +38,16 @@
               <div class="address add-header">
                 <a class="address__tel" href="tel:+78007003030">8 800 700 30 30</a>
                 <p class="address__graphic-job">График работы</p>
+                <div class="address__graphic-hidden">
+                  <div class="triangle"></div>
+                  <div class="address__hidden-block">
+                    <p class="address__graphic-week">пн-вс: 09:00 - 20:00</p>
+                    <p class="address__graphic-dinner">Обед: 14:00-14:30</p>
+                  </div>
+                </div>
               </div>
             </div>
         </header>
-        <div class="undeheader">
-          <div class="address__graphic-hidden">
-            <div class="triangle"></div>
-            <div class="address__hidden-block">
-              <p class="address__graphic-week">пн-вс: 09:00 - 20:00</p>
-              <p class="address__graphic-dinner">Обед: 14:00-14:30</p>
-            </div>
-          </div>
-        </div>
 
         <section class="preview">
           <h1 class="preview__tittle">Авторские <br> туры по Азии</h1>
@@ -155,7 +154,6 @@
         </section>
 
         <footer class="footer">
-          <hr class="footer__line">
           <div class="footer__block">
             <div class="logo">
               <a class="logo__link" href="#">

@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no">
   <meta name="format-detection" content="telephone=no">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./css/s.css">
   <title>Services</title>
 </head>
@@ -37,28 +38,24 @@
             <div class="address ">
               <a class="address__tel" href="tel:+78007003030">8 800 700 30 30</a>
               <p class="address__graphic-job">График работы</p>
+              <div class="address__graphic-hidden">
+                <div class="triangle"></div>
+                <div class="address__hidden-block">
+                  <p class="address__graphic-week">пн-вс: 09:00 - 20:00</p>
+                  <p class="address__graphic-dinner">Обед: 14:00-14:30</p>
+                </div>
+              </div>
             </div>
         </div>
         </header>
-        <div class="undeheader">
-          <div class="address__graphic-hidden">
-            <div class="triangle"></div>
-            <div class="address__hidden-block">
-              <p class="address__graphic-week">пн-вс: 09:00 - 20:00</p>
-              <p class="address__graphic-dinner">Обед: 14:00-14:30</p>
-            </div>
-          </div>
-        </div>
 
         <div class="header__block">
           <h1 class="header__tittle">Услуги</h1>
-          <div class="breadcrumbs">
-            <span class="breadcrumbs__element"><a href="index.html">Главная</a></span>
-            <span class="breadcrumbs__element"><a href="servises.html">Услуги</a></span>
-          </div>
+          <ul class="breadcrumbs">
+            <li class="breadcrumbs__element"><a href="index.html">Главная</a></span>
+            <li class="breadcrumbs__element"><a href="servises.html">Услуги</a></span>
+          </ul>
         </div>
-
-        
 
         <div class="services__content">
           <ul class="services__list">
@@ -99,22 +96,53 @@
       <div class="services__partners">
         <div class="services-partners__container">
           <h2 class="services__partners-tittle">Партнёры</h2>
-          <div class="services__partners-list">
-            <img class="services__partners-item" src="./img/img-services/pobeda.jpg" alt="partner">
-            <img class="services__partners-item" src="./img/img-services/s7.jpg" alt="partner">
-            <img class="services__partners-item" src="./img/img-services/lets-fly.jpg" alt="partner">
-            <img class="services__partners-item" src="./img/img-services/lufthansa.jpg" alt="partner">
-            <img class="services__partners-item" src="./img/img-services/airbaltic.jpg" alt="partner">
-            <img class="services__partners-item" src="./img/img-services/pegasus.jpg" alt="partner">
-            <img class="services__partners-item" src="./img/img-services/ural.jpg" alt="partner">
-            <img class="services__partners-item" src="./img/img-services/pegas.jpg" alt="partner">
-          </div>
+          <ul class="services__partners-list">
+            <li class="services__partners-item"><a class="services__partners-tap" href="">
+              <img src="./img/img-services/pobeda.png" alt="pobeda" class="services__partners-picture">
+
+            </a>
+            </li>
+            <li class="services__partners-item"><a class="services__partners-tap" href="">
+              <img src="./img/img-services/s7.png" alt="pobeda" class="services__partners-picture">
+
+            </a>
+            </li>
+            <li  class="services__partners-item"><a class="services__partners-tap" href="">
+              <img src="./img/img-services/lets-fly.png" alt="pobeda" class="services__partners-picture">
+
+            </a>
+            </li>
+            <li  class="services__partners-item"><a class="services__partners-tap" href="">
+              <img src="./img/img-services/lufthansa.png" alt="pobeda" class="services__partners-picture">
+
+            </a>
+            </li>
+            <li  class="services__partners-item"><a class="services__partners-tap" href="">
+              <img src="./img/img-services/airbaltic.png" alt="pobeda" class="services__partners-picture">
+
+            </a>
+            </li>
+            <li  class="services__partners-item"><a class="services__partners-tap" href="">
+              <img src="./img/img-services/pegasus.png" alt="pobeda" class="services__partners-picture">
+
+            </a>
+            </li>
+            <li class="services__partners-item"><a class="services__partners-tap" href="">
+              <img src="./img/img-services/ural.png" alt="pobeda" class="services__partners-picture">
+
+            </a>
+            </li>
+            <li class="services__partners-item"><a class="services__partners-tap" href="">
+              <img src="./img/img-services/pegas.png" alt="pobeda" class="services__partners-picture">
+
+            </a>
+            </li>
+          </ul>
         </div>
       </div>
 
       <footer class="footer services__footer">
         <div class="footer__container">
-          <hr class="footer__line">
           <div class="footer__block">
             <div class="logo">
               <a class="logo__link" href="#">

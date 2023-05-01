@@ -4,6 +4,7 @@
     display: flex;
     gap: 4.5rem;
     margin-top: 3.5rem;
+
     .services__card-content{
       margin-top: .8rem;
       .services__card-tittle{
@@ -11,5 +12,6 @@
         font-size: 36px;}
       .services__card-text{
         margin: 2rem 0 3rem ;
-        line-height: 2.5rem;}}}}
+        line-height: 2.5rem;}}}
+  .services__card:first-child{margin-top: 0;}}
 
