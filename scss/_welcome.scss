@@ -32,8 +32,12 @@
   }
   &__logo{
     width: 19.92rem;
+    height: 8.5rem;
     animation: heartBeat infinite;
-    animation-duration: 2s;
+    animation-duration: 2s;}
+  .logo__link{
+    width: 100%;
+    height: 100%;
   }
   &__item{
     margin-top: -.69rem;
