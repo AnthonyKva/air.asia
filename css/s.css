@@ -454,14 +454,13 @@
   background: url("../img/welcome/shades.png") no-repeat;
 }
 .welcome__logo {
-  width: 19.92rem;
-  height: 8.5rem;
   animation: heartBeat infinite;
   animation-duration: 2s;
 }
 .welcome .logo__link {
-  width: 100%;
-  height: 100%;
+  display: flex;
+  width: 19.92rem;
+  height: 8.5rem;
 }
 .welcome__item {
   margin-top: -0.69rem;
