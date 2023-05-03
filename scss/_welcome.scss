@@ -31,8 +31,9 @@
     background: url('../img/welcome/shades.png') no-repeat;
   }
   &__logo{
-      animation: heartBeat infinite;
-      animation-duration: 2s;
+    width: 19.92rem;
+    animation: heartBeat infinite;
+    animation-duration: 2s;
   }
   &__item{
     margin-top: -.69rem;

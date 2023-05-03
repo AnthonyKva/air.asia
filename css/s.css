@@ -454,6 +454,7 @@
   background: url("../img/welcome/shades.png") no-repeat;
 }
 .welcome__logo {
+  width: 19.92rem;
   animation: heartBeat infinite;
   animation-duration: 2s;
 }
