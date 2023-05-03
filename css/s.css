@@ -28,11 +28,18 @@
 .menu__items {
   margin-right: 2rem;
 }
+.menu__items :hover {
+  color: #f6bbbb;
+}
 .menu__item {
   width: 56px;
   font-weight: 400;
 }
 
+.address {
+  animation: shakeY infinite;
+  animation-duration: 10s;
+}
 .address__tel {
   text-align: right;
   font-style: normal;
@@ -97,6 +104,8 @@
   width: 2.5rem;
   height: 2.5rem;
   margin: 1rem 1rem 0;
+  animation: flip infinite;
+  animation-duration: 2s;
 }
 .fire-tours__cards {
   width: auto;
@@ -115,6 +124,10 @@
 }
 .fire-tours__article {
   margin: 1.5rem 1.5rem 1.5rem;
+}
+.fire-tours__article :hover {
+  animation: shakeX;
+  animation-duration: 2s;
 }
 .fire-tours__article-title {
   margin-top: 1.5rem;
@@ -305,30 +318,33 @@
   color: #fff;
 }
 
-.header__container .services__header {
+.container__container .services__header {
   margin-bottom: 5.2rem;
 }
-.header__container .header__tittle {
+.container__container .header__tittle {
   color: #fff;
   font-weight: 700;
   font-size: 72px;
 }
-.header__container .breadcrumbs {
+.container__container .breadcrumbs {
   display: flex;
   margin-top: 6.8rem;
 }
-.header__container .breadcrumbs .breadcrumbs__element {
+.container__container .breadcrumbs .breadcrumbs__element {
   color: #fff;
   margin-left: 0.2rem;
 }
-.header__container .breadcrumbs .breadcrumbs__element:not(:last-child)::after {
+.container__container .breadcrumbs .breadcrumbs__element :hover {
+  color: #f6bbbb;
+}
+.container__container .breadcrumbs .breadcrumbs__element:not(:last-child)::after {
   content: " /";
   color: #fff;
 }
-.header__container .breadcrumbs .breadcrumbs__element:last-child {
+.container__container .breadcrumbs .breadcrumbs__element:last-child {
   text-decoration: underline;
 }
-.header__container .breadcrumbs__element:first-child {
+.container__container .breadcrumbs__element:first-child {
   margin-left: 0;
 }
 
@@ -423,6 +439,8 @@
   position: relative;
   left: 35%;
   padding: 25.42rem 0;
+  animation: bounceIn infinite;
+  animation-duration: 5s;
 }
 .welcome__text {
   width: 42.21rem;
@@ -432,8 +450,6 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 2rem;
-  animation: bounceIn infinite;
-  animation-duration: 5s;
   color: #fff;
   background: url("../img/welcome/shades.png") no-repeat;
 }

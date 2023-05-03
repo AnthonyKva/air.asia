@@ -21,12 +21,17 @@
       justify-content: space-between;}
     &__items:last-child{margin: 0;}
 		&__items {
-      margin-right: 2rem;}
+      margin-right: 2rem;
+      :hover{
+        color: #f6bbbb;
+      }}
 		&__item {
       width: 56px;
       font-weight: 400;}}
 
 .address {
+  animation: shakeY infinite;
+  animation-duration: 10s;
     &__tel {  text-align: right;
       font-style: normal;
       font-weight: 400;

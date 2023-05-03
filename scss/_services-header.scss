@@ -1,4 +1,4 @@
-.header__container{
+.container__container{
   .services__header{
     margin-bottom: 5.2rem;
   }
@@ -8,11 +8,14 @@
     font-weight: 700;
     font-size: 72px;}
   .breadcrumbs{
-    display: flex;
+    display: flex; 
     margin-top: 6.8rem;
     .breadcrumbs__element{
       color: #fff;
-      margin-left: .2rem;}
+      margin-left: .2rem;
+      :hover{
+        color: #f6bbbb;
+      }}
     .breadcrumbs__element:not(:last-child)::after{
         content: " /";
         color: #fff;

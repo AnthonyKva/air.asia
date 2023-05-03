@@ -15,6 +15,8 @@
     position: relative;
     left: 35%;
     padding: 25.42rem 0;
+    animation: bounceIn infinite;
+    animation-duration: 5s;
   }
   &__text{
     width: 42.21rem;
@@ -24,8 +26,7 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 2rem;
-    animation: bounceIn infinite;
-    animation-duration: 5s;
+
     color: #fff;
     background: url('../img/welcome/shades.png') no-repeat;
   }
