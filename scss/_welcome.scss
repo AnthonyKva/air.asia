@@ -1,0 +1,45 @@
+.wrapper__welcome{
+  position: relative;
+  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  background: url('../img/welcome/welcome.jpg') no-repeat;
+  background-size: contain;
+  background-color: #021018;
+}
+
+.welcome{
+  width: 100%;
+  &__content{
+    position: relative;
+    left: 35%;
+    padding: 25.42rem 0;
+  }
+  &__text{
+    width: 42.21rem;
+    height: 17.71rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    animation: bounceIn infinite;
+    animation-duration: 5s;
+    color: #fff;
+    background: url('../img/welcome/shades.png') no-repeat;
+  }
+  &__logo{
+      animation: heartBeat infinite;
+      animation-duration: 2s;
+  }
+  &__item{
+    margin-top: -.69rem;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .red{
+    margin-left: 15.5rem;
+  }
+
+}

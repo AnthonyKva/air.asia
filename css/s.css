@@ -14,13 +14,9 @@
 }
 
 .logo {
-  width: 6rem;
   margin-top: 2rem;
 }
 
-.menu {
-  display: flex;
-}
 .menu__list {
   display: flex;
   gap: 2rem;
@@ -54,6 +50,8 @@
   color: black;
   position: absolute;
   transition: 0.8s;
+  animation: fadeOutDown;
+  animation-duration: 3s;
 }
 .address .address__graphic-hidden .triangle {
   margin-left: 9rem;
@@ -360,15 +358,17 @@
 .services__partners {
   background-color: #F4F5F5;
 }
+.services__partners .services-partners__container {
+  padding: 6.28rem 0 7.5rem;
+}
 .services__partners .services__partners-tittle {
-  margin: 6.28rem 0;
+  padding-bottom: 6.28rem;
   font-weight: 700;
   font-size: 48px;
 }
 .services__partners .services__partners-list {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 7.5rem;
 }
 .services__partners .services__partners-list .services__partners-item {
   width: 18rem;
@@ -399,9 +399,55 @@
 }
 .wrapper__services .services {
   background: url("../img/img-services/headline.jpg") no-repeat;
+  background-size: contain;
   display: flex;
   flex-direction: column;
   align-content: space-evenly;
+}
+
+.wrapper__welcome {
+  position: relative;
+  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  background: url("../img/welcome/welcome.jpg") no-repeat;
+  background-size: contain;
+  background-color: #021018;
+}
+
+.welcome {
+  width: 100%;
+}
+.welcome__content {
+  position: relative;
+  left: 35%;
+  padding: 25.42rem 0;
+}
+.welcome__text {
+  width: 42.21rem;
+  height: 17.71rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  animation: bounceIn infinite;
+  animation-duration: 5s;
+  color: #fff;
+  background: url("../img/welcome/shades.png") no-repeat;
+}
+.welcome__logo {
+  animation: heartBeat infinite;
+  animation-duration: 2s;
+}
+.welcome__item {
+  margin-top: -0.69rem;
+  font-weight: 400;
+  font-size: 18px;
+}
+.welcome .red {
+  margin-left: 15.5rem;
 }
 
 * {
@@ -420,6 +466,7 @@ body {
   display: flex;
   justify-content: center;
   background: url("../img/2.jpg") 0% 100% no-repeat;
+  background-size: contain;
 }
 
 html, body {

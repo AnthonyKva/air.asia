@@ -1,14 +1,16 @@
 .services__partners{
   background-color: #F4F5F5;
+  .services-partners__container{
+    padding: 6.28rem 0 7.5rem ;
+  }
   .services__partners-tittle{
-    margin: 6.28rem 0;
+    padding-bottom: 6.28rem;
     font-weight: 700;
     font-size: 48px;
   }
   .services__partners-list{
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 7.5rem;
     .services__partners-item{
       width: 18rem;
       height: 7rem;

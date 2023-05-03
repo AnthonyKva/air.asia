@@ -12,6 +12,7 @@
   justify-content: center;
   .services{
     background: url('../img/img-services/headline.jpg') no-repeat;
+    background-size: contain;
     display: flex;
     flex-direction: column;
     align-content: space-evenly;
