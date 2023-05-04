@@ -26,11 +26,13 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 2rem;
-
     color: #fff;
     background: url('../img/welcome/shades.png') no-repeat;
   }
   &__logo{
+    width: 19.92rem;
+    height: 8.5rem;
+    background: url('../img/welcome/welcome-logo.png');
     animation: heartBeat infinite;
     animation-duration: 2s;}
   .logo__link{
