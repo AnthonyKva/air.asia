@@ -283,6 +283,10 @@
   justify-content: space-between;
 }
 
+.footer {
+  flex: 0 0 auto;
+}
+
 .footer .menu {
   margin: 0;
   padding: 0;
@@ -412,6 +416,8 @@
   overflow: hidden;
   display: flex;
   justify-content: center;
+  font-size: 14px;
+  line-height: 1.42;
 }
 .wrapper__services .services {
   background: url("../img/img-services/headline.jpg") no-repeat;
@@ -474,6 +480,179 @@
   margin-left: 15.5rem;
 }
 
+.feedback {
+  background: url("../img/img-services/headline.jpg") no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  align-content: space-evenly;
+}
+
+.container__container {
+  flex: 1 0 auto;
+}
+
+.feedback-banner {
+  margin-bottom: 7.5rem;
+}
+
+.feedback__cards {
+  margin-top: 10.85rem;
+  column-count: 2;
+  margin-bottom: -2rem;
+}
+.feedback__card {
+  display: inline-block;
+  width: 39.78rem;
+  min-height: 38.71rem;
+  background-color: #F4F5F5;
+  padding: 3.57rem 2.28rem 2.28rem;
+  margin-bottom: 2.1rem;
+}
+.feedback__photo-name {
+  display: flex;
+}
+.feedback__picture {
+  width: 10.14rem;
+  height: 10.14rem;
+  border-radius: 50%;
+  background: url("../img/feedback/ivan.jpg") center center no-repeat;
+}
+.feedback__name {
+  font-weight: 700;
+  font-size: 24px;
+  margin: 2rem 1.57rem;
+}
+.feedback__name-vk {
+  display: flex;
+}
+.feedback__name-vk :hover {
+  color: #2E77A4;
+  text-decoration: underline;
+}
+.feedback__icon {
+  width: 2.14rem;
+  height: 2.14rem;
+  margin-left: 0.5rem;
+  background: url("../img/feedback/vk-blue 1.jpg") no-repeat;
+}
+.feedback textarea {
+  margin-top: 1.5rem;
+}
+.feedback__tittle {
+  margin-top: 2rem;
+  font-weight: 700;
+  font-size: 1.85rem;
+  line-height: 3.5rem;
+}
+.feedback__text {
+  margin-top: 1rem;
+  line-height: 27px;
+}
+.feedback__data {
+  margin-top: 3.42rem;
+}
+
+.feedback-banner {
+  background: url("../img/feedback/banner.jpg") no-repeat;
+  background-color: #F4F5F5;
+}
+
+.feedback__advertising {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 65px;
+  color: #fff;
+  margin-top: 8.2rem;
+}
+.feedback__form {
+  margin-top: 13rem;
+}
+.feedback__tittle- {
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+.feedback__choice {
+  display: flex;
+  margin-top: 2.5rem;
+  justify-content: space-between;
+}
+.feedback__choice-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
+.feedback__btn-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+.feedback .feedback__check-label {
+  display: block;
+  background-color: #E7E7E7;
+  box-sizing: border-box;
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+.feedback__row {
+  display: flex;
+  margin-top: 4rem;
+  gap: 1rem;
+}
+.feedback #btn-choice:checked ~ .feedback__check-label {
+  background-color: #B9EAE4;
+}
+.feedback #btn-choice2:checked ~ .feedback__check-label {
+  background-color: #B9EAE4;
+}
+.feedback #btn-choice3:checked ~ .feedback__check-label {
+  background-color: #B9EAE4;
+}
+.feedback #btn-choice4:checked ~ .feedback__check-label {
+  background-color: #B9EAE4;
+}
+.feedback #btn-choice5:checked ~ .feedback__check-label {
+  background-color: #B9EAE4;
+}
+.feedback #btn-choice6:checked ~ .feedback__check-label {
+  background-color: #B9EAE4;
+}
+.feedback #btn-choice7:checked ~ .feedback__check-label {
+  background-color: #B9EAE4;
+}
+.feedback__buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 3.5rem;
+  margin-top: 1.5rem;
+}
+.feedback .row {
+  margin-top: 4.07rem;
+}
+.feedback .form-control {
+  font-size: 2rem;
+}
+.feedback .form-group {
+  margin: 1rem 0 0;
+}
+
+label {
+  margin-bottom: 0;
+}
+
+.button-f {
+  font-weight: 400;
+  font-size: 13px;
+  text-decoration: none;
+  color: black;
+  padding: 0.64rem 1.28rem;
+  background-color: #B9EAE4;
+  border-radius: 30px;
+}
+.button-f :hover {
+  text-decoration: none;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -523,9 +702,10 @@ a {
 ul, li {
   text-decoration: none;
   list-style: none;
+  margin-bottom: 0;
 }
 
-h1 {
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
@@ -553,4 +733,14 @@ h1 {
   color: #F5170E;
   background-color: #fff;
   box-shadow: 0 0 5px #F5170E, 0 0 25px #F5170E, 0 0 50px #F5170E, 0 0 100px #F5170E, 0 0 200px #F5170E;
+}
+
+.grey {
+  background-color: #2B2B2B;
+  color: #fff;
+  border: none;
+}
+.grey:hover {
+  background-color: #8E8E8E;
+  box-shadow: none;
 }/*# sourceMappingURL=s.css.map */
